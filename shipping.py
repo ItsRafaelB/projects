@@ -39,7 +39,7 @@ elif cost_premium_ground < cost_ground and cost_premium_ground < cost_drone_ship
 elif cost_drone_shipping < cost_premium_ground and cost_drone_shipping < cost_ground:
   print("Drone shipping is the cheapest option, the price will be:", cost_drone_shipping)
 
-# I dont have time to compare if some shipping methods were the same cost so I did this:
+# I didn't have time to compare if some shipping methods were the same cost so I did this:
 
 else:
   print("Here are the prices of each shipping method: /n", cost_ground, "/n", cost_premium_ground, "/n", cost_drone_shipping)
