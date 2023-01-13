@@ -1,4 +1,4 @@
-# Takes the input to the weight
+# Takes the input of the weight
 
 weight = float(input("Please enter the weight:"))
 
